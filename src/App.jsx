@@ -19,6 +19,7 @@ const App = () => {
   <Route path="/profile" element={<ProtectedRoute><Profile/></ProtectedRoute>} />
  </Routes>
  </AuthContextProvider>
+  NOTE:- DUE TO TMDB API FAILURE THE MOVIES/SERIES ARE NOT SHOWING 
  
  </>
   )
